@@ -1,5 +1,5 @@
-export default function SkillListItem() {
+export default function SkillListItem({ skill }) {
     return (
-        <li>SkillListItem</li>
+        <li>{skill.name} LEVEL {skill.level}</li>
     );
 }

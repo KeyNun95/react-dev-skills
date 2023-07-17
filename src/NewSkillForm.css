@@ -1,0 +1,24 @@
+form {
+    display: grid;
+    padding: 15px;
+    border: rgb(247, 137, 27) solid 3px;
+    border-radius: 5px;
+}
+
+.bar {
+    border: rgb(247, 137, 27) solid 3px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.dropdown {
+    border: rgb(247, 137, 27) solid 3px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+button {
+    background-color: teal;
+    font-weight: bold;
+}

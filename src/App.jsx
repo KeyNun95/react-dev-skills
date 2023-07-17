@@ -14,9 +14,9 @@ const skills = [
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <h1>React Dev Skills</h1>
-      <SkillList />
+      <SkillList skills={skills}/>
       <hr />
       <NewSkillForm />
     </div>
