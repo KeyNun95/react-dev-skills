@@ -3,22 +3,27 @@ form {
     padding: 15px;
     border: rgb(247, 137, 27) solid 3px;
     border-radius: 5px;
+    width: 250px;
 }
 
 .bar {
     border: rgb(247, 137, 27) solid 3px;
     border-radius: 5px;
-    margin-left: 20px;
+    margin-left: 30px;
+    width: 180px;
 }
 
 .dropdown {
     border: rgb(247, 137, 27) solid 3px;
     border-radius: 5px;
     margin-left: 20px;
-    width: 150px;
+    width: 190px;
+    margin-top: 20px;
 }
 
-button {
+.button {
     background-color: teal;
     font-weight: bold;
+    margin-top: 20px;
+    border-radius: 3px;
 }
