@@ -1,4 +1,5 @@
 .devskill {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0.5rem;
@@ -9,6 +10,10 @@
     list-style: none;
 }
 
-.devskill > level {
-
+.devskill > .level {
+    background-color: teal;
+    color: white;
+    margin-left: 5rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 30px;
 }

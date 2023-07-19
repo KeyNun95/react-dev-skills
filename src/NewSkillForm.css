@@ -1,29 +1,44 @@
 form {
-    display: grid;
+    /* display: grid;
+    gap: 15px; */
+    text-align: left;
+    width: 250px;
+    font-weight: bold;
     padding: 15px;
     border: rgb(247, 137, 27) solid 3px;
     border-radius: 5px;
-    width: 250px;
+    align-items: justify;
 }
 
 .bar {
+    font-weight: bold;
     border: rgb(247, 137, 27) solid 3px;
     border-radius: 5px;
-    margin-left: 30px;
-    width: 180px;
+    margin-left: 37px;
+    width: 170px;
+    /* padding: 0.2rem; */
 }
 
 .dropdown {
+    font-weight: bold;
+    /* padding: 0.2rem; */
     border: rgb(247, 137, 27) solid 3px;
     border-radius: 5px;
-    margin-left: 20px;
-    width: 190px;
+    margin-left: 29px;
+    width: 180px;
     margin-top: 20px;
 }
 
 .button {
+    /* grid-column: span 2;
+    background-color: teal;
+    border: 0.2rem solid teal;
+    font-weight: bold;
+    padding: 0.2rem;
+    border-radius: 3px; */
     background-color: teal;
     font-weight: bold;
     margin-top: 20px;
     border-radius: 3px;
+    width: 250px;
 }
