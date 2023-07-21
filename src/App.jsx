@@ -14,20 +14,28 @@ import './App.css'
 // ];
 
 function App() {
-console.log('useState is..', useState);
-const [skills, setskills] = useState([
-  { name: "HTML", level: 5 },
-  { name: "CSS", level: 3 },
-  { name: "JavaScript", level: 4},
-  { name: "Python", level: 2},
-])
+  // console.log('useState is..', useState);
+  const [skillsObj, setSkills] = useState([
+    { name: "HTML", level: 5 },
+    { name: "CSS", level: 3 },
+    { name: "JavaScript", level: 4},
+    { name: "Python", level: 2},
+  ]);
+
+  function addSkill(skillFromTheForm) {
+    setSkills([
+      skillFromTheForm,
+      ...skillsObj
+    ])
+  }
+
 
   return (
     <div className="App">
       <h1>React Dev Skills</h1>
-      <SkillList skills={skills}/>
+      <SkillList skills={skillsObj}/>
       
-      <NewSkillForm />
+      <NewSkillForm addSkill={addSkill}/>
     </div>
   )
 };
