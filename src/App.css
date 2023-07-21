@@ -50,6 +50,10 @@
   color: teal;
 }
 
+h1 {
+  margin-left: 25px;
+}
+
 .padding-0 {
   padding: 0;
 }

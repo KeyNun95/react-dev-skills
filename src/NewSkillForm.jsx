@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function NewSkillForm({addSkill}) {
     const [skill, setSkill] = useState({
         name: "",
-        level: "3",
+        evel: "3",
     });
 
     const [errorMessage, setErrorMessage] = useState('')
@@ -32,19 +32,23 @@ export default function NewSkillForm({addSkill}) {
         <>
         <span>{errorMessage ? errorMessage : ''}</span>
         <form onSubmit={handleSubmit}>
-            <input 
-                className="bar" 
+            <label>Skill
+            <input
+                className="bar"
                 value={skill.name} 
                 name="name" 
                 onChange={handleChange} 
             />
-            <select className="dropdown" name="level" onChange={handleChange}>
+            </label>
+            <label>Level
+            <select className="dropdown" name="Level" onChange={handleChange}>
                 <option value={1}>1</option>
                 <option value={2}>2</option>
                 <option value={3}>3</option>
                 <option value={4}>4</option>
                 <option value={5}>5</option>
             </select>
+            </label>
             
             <button className="button">ADD SKILL</button>
         </form>
